@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.cyberflame</groupId>
-    <artifactId>plugin</artifactId>
+    <artifactId>spawnpermfly</artifactId>
     <version>1.0.0</version>
-    <name>plugin</name>
+    <name>SpawnPermFly</name>
     <repositories>
         <repository>
             <id>papermc</id>
@@ -18,16 +18,16 @@
         </repository>
         <repository>
             <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>paper</id>
             <url>https://destroystokyo.com/repo/repository/maven-public/</url>
         </repository>
-	<repository>
+        <repository>
 	    <id>codemc</id>
 	    <url>https://repo.codemc.io/repository/nms/</url>
-	</repository>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>

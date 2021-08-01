@@ -11,6 +11,6 @@ public class PlayerListener implements Listener
     {
         Player p = event.getPlayer();
         World w = event.getPlayer().getWorld();
-        if (w.getName() == "world" && !p.isFlying) p.setFlying(true);
+        if (w.getName() == "world" && !p.isFlying()) p.setFlying(true);
     }
 }

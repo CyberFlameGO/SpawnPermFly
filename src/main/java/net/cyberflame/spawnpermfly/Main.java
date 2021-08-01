@@ -9,7 +9,6 @@ public class Main extends JavaPlugin
     @Override
     public void onEnable() 
     {
-        Bukkit.broadcastMessage("[Plugin] Plugin loaded and enabled successfully!");
         Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
     }
 }

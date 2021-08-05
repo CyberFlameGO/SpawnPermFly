@@ -21,7 +21,7 @@ public class PlayerListener implements Listener
         else if (w.getName() != "world" && p.isFlying())
         {
             p.setFlying(false);
-            p.setAllowFlight(false)
+            p.setAllowFlight(false);
         }
     }
 }

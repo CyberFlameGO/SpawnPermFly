@@ -1,6 +1,6 @@
 name: ${project.name}
-main: net.cyberflame.plugin.Main
+main: net.cyberflame.spawnpermfly.Main
 version: ${project.version}
-description: Plugin
+description: https://github.com/CyberFlameGO/SpawnPermFly
 website: https://cyberfla.me/
 author: CyberFlame

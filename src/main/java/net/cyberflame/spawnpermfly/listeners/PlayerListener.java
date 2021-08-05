@@ -9,10 +9,10 @@ import org.bukkit.event.player.PlayerMoveEvent;
 public class PlayerListener implements Listener
 {
     @EventHandler
-    public void onMove(PlayerMoveEvent event)
+    public void onPlayerMove(PlayerMoveEvent event)
     {
         Player p = event.getPlayer();
         World w = event.getPlayer().getWorld();
-        if (w.getName() == "world" && !p.isFlying()) p.setFlying(true);
+        if (w.getName() == "world" && !(p.isFlying())) p.setFlying(true);
     }
 }
